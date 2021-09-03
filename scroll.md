@@ -27,4 +27,6 @@ paneElement[0].dispatchEvent(wheelEvent) results in an error from dart_sdk.js:
 Expected a value of type 'Event$', but got one of type 'NativeJavaScriptObject'
 ```
 
-Not sure what the problem is here or if it's solvable.
+Not sure exactly what the problem is here or how / if it would be possible to solve it in Cypress.
+
+Would probably be easier to make the scrollable widget listen to option / alt + arrows.
